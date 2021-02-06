@@ -1,2 +1,2 @@
-# my_firts_repo
-This is a change on my README
+# Platzi Game
+Proyecto del curso de Preprocesadores de Platzi

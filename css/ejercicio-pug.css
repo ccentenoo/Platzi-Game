@@ -90,6 +90,48 @@ header a {
 	text-decoration: none;
 }
 
+main {
+	width: 100%;
+	height: calc(100vh - 200px);
+	display: flex;
+}
+
+.menu-side {
+	background-color: #CED7E9;
+	width: 20%;
+	height: 100%;
+	display: block;
+	padding: 20px 40px;
+}
+
+.menu-side ul {
+	list-style: none;
+	padding: 0;
+	margin: 20px 0 0;
+}
+
+.menu-side ul li {
+	padding: 10px 0;
+}
+
+.menu-side a {
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	font-weight: 700;
+}
+
+.content {
+	width: 80%;
+	padding: 40px 60px;
+}
+
+.content p {
+	margin-bottom: 20px;
+}
+
 .contenido {
 	display: flex;
 	align-items: center;

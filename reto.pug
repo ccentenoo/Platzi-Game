@@ -1,0 +1,24 @@
+extends ./componentes/plantilla.pug 
+block contenidos
+    main
+      nav.menu-side
+          h2 Menu
+          ul 
+            each enlace in enlaces
+              li
+                a(href="#")= enlace
+      section.content
+        h2 #{titulos[0]}
+        p
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          | Quod totam saepe nisi repellat dolorum exercitationem 
+          | consequuntur iure, dolores explicabo, recusandae nesciunt 
+          | quam maiores ea dignissimos illum possimus ab delectus 
+          | cumque?
+        p
+          | Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          | Quod totam saepe nisi repellat dolorum exercitationem 
+          | consequuntur iure, dolores explicabo, recusandae nesciunt 
+          | quam maiores ea dignissimos illum possimus ab delectus 
+          | cumque?
+        a.boton Ver mas
